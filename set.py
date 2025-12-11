@@ -62,7 +62,6 @@ class SetAssociativeCache:
 cache_size = int(input("Enter cache size: "))
 block_size = int(input("Enter block size: "))
 associativity = int(input("Enter associativity: "))
-
 # create cache
 cache = SetAssociativeCache(cache_size, block_size, associativity)
 
