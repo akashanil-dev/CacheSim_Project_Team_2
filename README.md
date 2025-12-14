@@ -49,7 +49,7 @@ Each member works on their **respective branch**, implementing **one** cache map
 | **Akshai Raj**    | `akshai`    | LRU                                 |
 | **Aleena Roby**   | `aleena`    | Direct Mapping                      |
 | **Albin Suresh**  | `albin`     | *(Assign algorithm here)*           |
-| **Alfiya Ismail** | `alfiya`    | *(Assign algorithm here)*           |
+| **Alfiya Ismail** | `alfiya`    | Set Associative Mapping           |
 
 > Choose from: **Direct Mapping**, **Associative Mapping**, **Set-Associative**, **FIFO**, **LRU**, **LFU**
 > (Each member must take exactly one.)
