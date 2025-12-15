@@ -1,0 +1,62 @@
+# Direct Mapping Cache Simulation
+
+**Overview**
+
+This module implements a Direct Mapping Cache Simulation as part of the Cache Memory Mapping project. Direct mapping is a cache organization technique where each memory block is mapped to exactly one cache line using a fixed mapping function.
+
+**Mapping Function**
+
+The cache line for a given memory block is calculated using the formula:
+
+Cache Line Index = (Memory Block Number) % (Number of Cache Lines)
+
+
+Each cache line can store only one memory block. If multiple memory blocks map to the same cache line, a conflict miss occurs.
+
+**Features**
+
+Simulates Direct Mapping cache technique
+
+Accepts a sequence of memory block references as input
+
+Displays cache content after each memory access
+
+Tracks total cache hits and misses
+
+Calculates cache hit ratio
+
+**Input**
+
+Number of cache lines
+
+Sequence of memory block references
+
+**Output**
+
+Cache state after each memory reference
+
+Hit or miss for each access
+
+Total number of hits
+
+Total number of misses
+
+Cache hit ratio
+
+**Assumptions**
+
+Cache initially empty
+
+One memory block per cache line
+
+Input references are block numbers (not byte addresses)
+
+**Educational Purpose**
+
+This simulation helps in understanding:
+
+Fixed mapping behavior in direct mapping
+
+Conflict misses
+
+Trade-off between simplicity and cache performance

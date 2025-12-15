@@ -1,0 +1,23 @@
+START
+Input number of cache lines (N)
+Initialize cache with N empty entries
+hits = 0, misses = 0
+
+Input sequence of memory block references
+
+FOR each block in sequence:
+    index = block MOD N
+
+    IF cache[index] == block:
+        hits = hits + 1
+        result = "HIT"
+    ELSE:
+        misses = misses + 1
+        cache[index] = block
+        result = "MISS"
+
+    Display cache status and result
+
+hit_ratio = hits / total_references
+Display hits, misses, hit_ratio
+STOP
