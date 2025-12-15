@@ -1,6 +1,6 @@
 # **CacheSim – Cache Mapping & Replacement Algorithm Simulator**
 
-### *Team Project for MCA 2025–27, Amal Jyothi College of Engineering*
+### *Project of Team 2 of MCA 2025–27, Amal Jyothi College of Engineering*
 
 ---
 
@@ -41,18 +41,15 @@ The goal is to design a functional cache simulator while using Git for structure
 
 ## **👥 Team Members, Branches & Assigned Algorithms**
 
-Each member works on their **respective branch**, implementing **one** cache mapping or replacement algorithm.
+We are *TEAM 2* and each member works on their **respective branch**, implementing **one** cache mapping or replacement algorithm.
 
 | Team Member       | Branch Name | Assigned Algorithm (One Per Member) |
 | ----------------- | ----------- | ----------------------------------- |
 | **Akash A**       | `akash`     | FIFO                                |
 | **Akshai Raj**    | `akshai`    | LRU                                 |
 | **Aleena Roby**   | `aleena`    | LFU                                 |
-| **Albin Suresh**  | `albin`     | DIRECT MAPPING                      |
-| **Alfiya Ismail** | `alfiya`    | SET ASSOCIATIVE MAPPING             |
-
-> Choose from: **Direct Mapping**, **Associative Mapping**, **Set-Associative**, **FIFO**, **LRU**, **LFU**
-> (Each member must take exactly one.)
+| **Albin Suresh**  | `albin`     | Direct Mapping                      |
+| **Alfiya Ismail** | `alfiya`    | Set Associative Mapping             |
 
 ---
 
@@ -64,4 +61,3 @@ The project follows a structured Git workflow:
 * Frequent and meaningful commits.
 * Merges done only after testing and review.
 * Conflicts resolved collaboratively through teamwork.
-* Documentation of Git logs, branches, merges, and contribution graph stored in `/screenshots`.
